@@ -1,144 +1,18 @@
-/* body { margin-left: 10%; margin-right: 10%; }
-h1 { font-family: georgia, serif; font-size: 30px; color: #660066;}
-
-article { color: #444444; background-color: #FFFFFF; font-family: georgia, serif; text-align: left;}
-article a{ color: #111111;}
-header h2 { font-size: 15px; color: #FFFFFF;}
-
-*/
-
 body { width:640px; margin:auto; font-family: georgia, serif; }
 
 hr {color: white; border:0;}
 
-article { font-size: 12px;}
-article h1 a { font-size:15px; color: #661166; }
-article h2 { text-align:right;}
-article h2 a { font-size:12px; color: #AAAAAA; }
-article h3 {font-size: 12px; color: #999999; }
-#header { color: #661166; clear:both; text-align:center; }
-#header h1 {font-size: 30px; }
-#header h2 {font-size: 20px; }	
-#header {font-size: 15px; }
-#header ul { margin:0; padding: 0; }
-#header ul li { display: inline-block; }
-#header ul li a { text-decoration: none; color: #777777; background-color: #EEEEEE; padding: 10.5px 21px;}
-#header ul li a:hover { color: #0b75b2; }
-#header ul li a:visited { color: #222222; }
 
-#container {width:600px; clear:both; margin-top:20px;}
-
-#main { color: #333; width: 400px; float: left;}
-#sidebar { width:200px; float:right; text-align:justify;  }
-#sidebar ul { font-size:12px; color: #777; list-style-type: square; }
-
-.clear {clear:both;}
-
-#footer{ font-size: 12px; color: #DDD; }
-
-.setimg {opacity:0.2; width:20px;}
-
-#settings {position:absolute; top:0px; right:0px; float:right; text-align:right; margin-right:10px;  }
-#settings ul {list-style:none; margin:0; padding: 0;}
-#settings ul a {text-decoration:none; color:#999; background-color:#fff; font-size:12px; }
-#settings ul li {position:relative; float:left; }
-#settings li ul {display:none; }
-#settings ul li a {display:block; text-decoration:none; color: #999; border-top: 1px solid #DDD; padding: 5px 15px 5px 15px; margin-left:1px; white-space:nowrap;}
-#settings li:hover ul {display:block; position:absolute; right:0px; }
-#settings li:hover li {float:right; }
-#settings li:hover a {color:#DDDDDD;}
-#settings li:hover li a:hover {color: #AAAAAA;}
-
-#dialog-overlay {
-
-	width:100%; 
-	height:100%;
-	
-	filter:alpha(opacity=50); 
-	-moz-opacity:0.5; 
-	-khtml-opacity: 0.5; 
-	opacity: 0.5; 
-	background:#000; 
-
-	/* make sure it appear behind the dialog box but above everything else */
-	position:absolute; 
-	top:0; left:0; 
-	z-index:3000; 
-
-	/* hide it by default */
-	display:none;
-}
+label { width: 4em; float: left; text-align: right; margin-right: 0.5em; display: block }
 
 
-#dialog-box {
-	
-	/* css3 drop shadow */
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	
-	/* css3 border radius */
-	-moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-	
-	background:#eee;
-	/* styling of the dialog box, i have a fixed dimension for this demo */ 
-	width:328px; 
-	
-	/* make sure it has the highest z-index */
-	position:absolute; 
-	z-index:5000; 
+.header {font-size: 3em; }
 
-	/* hide it by default */
-	display:none;
-}
 
-#dialog-box .dialog-content {
-	/* style the content */
-	text-align:left; 
-	padding:10px; 
-	margin:13px;
-	color:#666; 
-	font-family:arial;
-	font-size:11px; 
-}
 
-a.button {
-	/* styles for button */
-	margin:10px auto 0 auto;
-	text-align:center;
-	background-color: #e33100;
-	display: block;
-	width:50px;
-	padding: 5px 10px 6px;
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
-	line-height: 1;
-	
-	/* css3 implementation :) */
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
-	border-bottom: 1px solid rgba(0,0,0,0.25);
-	position: relative;
-	cursor: pointer;
-	
-}
+.main {font-size: 1em; color: #000; }
+.main form {border:1px; margin: 2px; padding: 2px; }
 
-a.button:hover {
-	background-color: #c33100;	
-}
 
-/* extra styling */
-#dialog-box .dialog-content p {
-	font-weight:700; margin:0;
-}
 
-#dialog-box .dialog-content ul {
-	margin:10px 0 10px 20px; 
-	padding:0; 
-	height:50px;
-}
-
+.footer {font-size:0.75em; color: #C8C8C8;}
